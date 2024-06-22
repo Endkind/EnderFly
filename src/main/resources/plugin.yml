@@ -1,0 +1,8 @@
+name: EnderFly
+version: '${project.version}'
+main: net.endkind.enderfly.EnderFly
+api-version: '1.20'
+prefix: EnderFly
+authors: [Endkind Ender]
+description: Lorum Impus
+website: https://www.endkind.net
