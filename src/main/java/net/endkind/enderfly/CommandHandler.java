@@ -23,9 +23,11 @@ public class CommandHandler implements CommandExecutor {
 
         if (flyingPlayers.contains(player)) {
             player.setAllowFlight(false);
+            flyingPlayers.remove(player);
             sender.sendMessage("§5EnderFly§8 >>§2 Flying has been disabled.");
         } else {
             player.setAllowFlight(true);
+            flyingPlayers.add(player);
             sender.sendMessage("§5EnderFly§8 >>§6 Flying has been enabled.");
         }
 
