@@ -4,5 +4,11 @@ main: net.endkind.enderfly.EnderFly
 api-version: '1.20'
 prefix: EnderFly
 authors: [Endkind Ender]
-description: Lorum Impus
+description: A plugin that allows players to toggle flight mode.
 website: https://www.endkind.net
+commands:
+  enderfly:
+    description: Toggle flying mode for players.
+    aliases:
+      - fly
+    permission: enderfly.fly
